@@ -30,8 +30,9 @@ Possible Errors:
 
 -- NOTE: This has been updated from the video to fix issues with encoding
 COPY company_dim
-FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\company_dim.csv'
+FROM 'C:\Users\turningpointKS\Desktop\data Analysis\csv_files\company_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
 
 COPY skills_dim
 FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\skills_dim.csv'
